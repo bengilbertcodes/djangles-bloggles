@@ -27,7 +27,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['8000-bengilbertc-djanglesblo-a97i712q6k7.ws.codeinstitute-ide.net',
 'djangles-bloggles-540081614a7b.herokuapp.com'
